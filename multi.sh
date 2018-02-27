@@ -1,8 +1,8 @@
 #!/bin/bash
 
 
-ALBUMID=([0]='2040956' [1]='1837568' [2]='1780124' )
-RSSFILE=([0]='lgh.xml' [1]='7890.xml' [2]='fger.xml')
+ALBUMID=([0]='10463703' [1]='14393')
+RSSFILE=([0]='ffk.xml' [1]='ydl.xml')
 GRABBER="lizhi_linux_amd64"
 
 wget -q https://github.com/cxuauto/podcast-rss/releases/download/3jia/$GRABBER
