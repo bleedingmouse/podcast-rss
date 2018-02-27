@@ -3,9 +3,9 @@
 
 ALBUMID=([0]='2040956' [1]='1837568' [2]='1780124' )
 RSSFILE=([0]='lgh.xml' [1]='7890.xml' [2]='fger.xml')
-GRABBER="lizhi_linux_amd64"
+GRABBER="lizhi"
 
-wget -q https://github.com/cxuauto/podcast-rss/releases/download/3jia/$GRABBER
+wget -q https://github.com/bleedingmouse/podcast-rss/releases/download/3zhua/$GRABBER
 chmod +x ./$GRABBER
 
 len=${#ALBUMID[@]}
